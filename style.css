@@ -1,0 +1,12 @@
+.container
+{
+    background:linear-gradient(to right#00ccff,#b3f0ff);
+}
+h1
+{
+    color: darkslategrey;
+}
+h2
+{
+    color: rgb(200, 500, 300);
+}

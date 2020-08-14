@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><h1>Welcome</h1></title>
+    </head>
+    <h1>Welcome</h1>
+    <body>
+        <h1>Sign Up</h1>
+        <h4>Already have an account?</h4>
+        <form>
+            <table border="0" cellspacing="1">
+                <tr>
+                    <td><label for="name">Name: </label></td>
+                    <td><input type="text" id="name" name="name"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender: </label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="male" name="Gender" value="male"></td>
+                    <td><label for="male">MALE</label></td>
+                    <td><input type="radio" id="female" name="Gender" value="female"></td>
+                    <td><label for="female">FEMALE</label></td>
+                    <td><input type="radio" id="others" name="Gender" value="others"></td>
+                    <td><label for="others">OTHERS</label></td>
+                </tr>
+                <tr>
+                    <td><label for="phno">Phone Number: </label></td>
+                    <td><input type="tel" id="phno" name="phno" placeholder="+91-" pattern="+[9-1]{2}-[0-9]{9}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:   </label></td>
+                    <td><input type="email" id="email" name="email"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password :</label></td>
+                    <td><input type="password" id="pwd" name="pwd"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd2">Confirm Again :</label></td>
+                    <td><input type="password" id="pwd2" name="pwd2"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit"   value="Sign Up">
+                    </td>
+                    <td>
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+</form>
+</body>
+</html>
